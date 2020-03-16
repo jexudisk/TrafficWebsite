@@ -1,0 +1,7 @@
+[Adblock Plus 2.0]
+! Version: 20170917000
+! Title:  优酷html5播放器规则[默认1080P20170917000]
+! Email: yiclear@aliyun.com
+! Homepage: http://www.yiclear.com
+v.youku.com#%#(function(){'use strict';window.sessionStorage.setItem("P_l_h5", true);})();
+v.youku.com#%#!function(){var a=JSON.parse(window.localStorage["YK_PSL_SETTINGS"]);a.quality="1080p",a.preferQuality="1080p",window.localStorage["YK_PSL_SETTINGS"]=JSON.stringify(a)}();
